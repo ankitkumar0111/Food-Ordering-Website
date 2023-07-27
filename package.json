@@ -11,6 +11,8 @@
   "author": "Ankit Singh",
   "license": "ISC",
   "devDependencies": {
+    "@types/react": "^18.2.17",
+    "@types/react-dom": "^18.2.7",
     "parcel": "^2.9.3",
     "process": "^0.11.10"
   },
