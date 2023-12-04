@@ -3,7 +3,7 @@ import React from "react";
 class UserClass extends React.Component {
   constructor(props) {
     super(props);
-    console.log(props);
+    // console.log(props);
 
     this.state = {
       // count : 0,
@@ -17,7 +17,7 @@ class UserClass extends React.Component {
   async componentDidMount() {
     const data = await fetch("https://api.github.com/users/akshaymarch7");
     const json = await data.json();
-    console.log(json);
+    // console.log(json);
     this.setState({
         userInfo:json
     })
